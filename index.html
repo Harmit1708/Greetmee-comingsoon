@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Greet Mee</title>
+    <title>Coming Soon</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=DM+Sans:opsz,wght@9..40,300;9..40,500&family=Montserrat:wght@400;600&display=swap"
@@ -17,7 +17,17 @@
       .font-dm-sans {
         font-family: "DM Sans", sans-serif;
       }
+      .images {
+        width: 100px;
+        height: 100px;
+        background-image: url("./bottomLeft.svg"), url("./bottomRight.svg"),
+          url("./topLeft.svg"), url("./topRight.svg");
+        background-repeat: no-repeat;
+        background-position: left bottom, right bottom, left top, right top;
+        background-size: contain;
+      }
     </style>
+    <meta name="google-adsense-account" content="ca-pub-7215750497906130" />
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7215750497906130"
@@ -25,81 +35,21 @@
     ></script>
   </head>
   <body
-    class="bg-black relative h-screen flex flex-col justify-center items-center overflow-hidden"
+    class="bg-black relative h-screen flex flex-col justify-center items-center overflow-hidden w-full images"
   >
-    <div class="flex flex-col justify-center items-center">
-      <svg
-        width="751"
-        height="711"
-        viewBox="0 0 751 711"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute top-0 left-0 text-[101px] z-[-1]"
-      >
-        <g filter="url(#filter0_f_437_281)">
-          <circle cx="40.5" cy="0.5" r="209.5" fill="#0A7BBB" />
-        </g>
-        <defs>
-          <filter
-            id="filter0_f_437_281"
-            x="-670"
-            y="-710"
-            width="1421"
-            height="1421"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="250.5"
-              result="effect1_foregroundBlur_437_281"
-            />
-          </filter>
-        </defs>
-      </svg>
-      <svg
-        width="1156"
-        height="835"
-        viewBox="0 0 1156 835"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute top-0 right-[239px] z-[-1]"
-      >
-        <g filter="url(#filter0_f_437_282)">
-          <circle cx="710.5" cy="124.5" r="209.5" fill="#BB0A74" />
-        </g>
-        <defs>
-          <filter
-            id="filter0_f_437_282"
-            x="0"
-            y="-586"
-            width="1421"
-            height="1421"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="250.5"
-              result="effect1_foregroundBlur_437_282"
-            />
-          </filter>
-        </defs>
-      </svg>
-      <p class="absolute top-[70px] left-[154px] text-[101px]">🎉</p>
-      <p class="absolute top-[135px] right-[160px] text-[91px]">👋</p>
+    <p
+      class="absolute top-[2%] 2xl:top-[12%] xl:top-[12%] lg:top-[12%] md:top-[12%] sm:top-[2%] 2xl:left-[8%] xl:left-[8%] 2xl lg:left-[8%] 2xl md:left-[8%] sm:left-[6%] left-[6%] 2xl:text-8xl xl:text-8xl lg:text-8xl md:text-8xl sm:text-5xl text-5xl"
+    >
+      🎉
+    </p>
+    <p
+      class="absolute top-[6%] 2xl:top-[24%] xl:top-[24%] lg:top-[24%] md:top-[24%] sm:top-[2%] 2xl:right-[12%] xl:right-[12%] lg:right-[12%] md:right-[12%] sm:right-[3%] right-[3%] 2xl:text-8xl xl:text-8xl lg:text-8xl md:text-8xl sm:text-4xl text-5xl"
+    >
+      👋
+    </p>
+    <div
+      class="flex flex-col justify-center items-center 2xl:w-[53%] xl:w-[53%] lg:w-[53%] md:w-[53%] sm:w-[84%] w-[84%]"
+    >
       <div class="flex justify-center h-full items-center">
         <svg
           width="200"
@@ -192,24 +142,30 @@
       <div
         class="font-dm-sans mt-[64px] text-white text-6xl font-bold break-words"
       >
-        <h2 class="tracking-[6px]">COMING SOON!</h2>
+        <h2
+          class="tracking-[6px] 2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl text-2xl"
+        >
+          COMING SOON!
+        </h2>
       </div>
       <p
-        class="text-white text-sm text-base font-dm-sans font-normal leading-7 break-words w-[53%] text-center flex items-center mt-[32px]"
+        class="text-white text-sm text-base font-dm-sans font-normal leading-7 break-words text-center flex items-center mt-[32px]"
       >
         Our project is currently in development, but we're all set to kick
         things off! Whether you'd like to learn more about us, share your
         requirements, or simply say hello, feel free to reach out. Drop us a
         line, and we'll get back to you as soon as possible.
       </p>
-      <div class="mt-[32px] min-w-[33%] flex justify-center relative">
+      <div
+        class="mt-[32px] 2xl:w-[62.3%] xl:w-[62.3%] lg:w-[80.3%] sm:w-[100%] w-[100%] flex justify-center relative"
+      >
         <input
           type="text"
           placeholder="Enter your email address"
-          class="pl-[34px] py-[18px] w-full rounded-full h-[47px] text-[16px] placeholder:text-[#6750A4] placeholder:font-[700] outline-none"
+          class="pl-4 py-[18px] w-full rounded-full h-[47px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] md:text-[12px] text-sm placeholder:text-[#6750A4] placeholder:font-[700] outline-none"
         />
         <button
-          class="flex gap-1 items-center text-white bg-[#6750A4] w-[206px] h-[47px] justify-center text-center font-[700] leading-[22spx] rounded-full absolute right-[-2px]"
+          class="flex gap-1 items-center text-white bg-[#6750A4] px-4 2xl:w-[42.3%] xl:w-[42.3%] h-[47px] justify-center text-center font-[700] leading-[22spx] rounded-full absolute right-[-2px]"
         >
           <p>Notify Me</p>
           <span
@@ -229,43 +185,16 @@
           </span>
         </button>
       </div>
-      <p class="absolute bottom-[60px] left-[184px] text-[71px]">🥳</p>
-      <p class="absolute bottom-[40px] right-[205px] text-[89px]">⭐</p>
-      <svg
-        width="895"
-        height="556"
-        viewBox="0 0 895 556"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute left-0 bottom-0 z-[-1]"
-      >
-        <g filter="url(#filter0_f_437_283)">
-          <circle cx="184.5" cy="710.5" r="209.5" fill="#BB6A0A" />
-        </g>
-        <defs>
-          <filter
-            id="filter0_f_437_283"
-            x="-526"
-            y="0"
-            width="1421"
-            height="1421"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="250.5"
-              result="effect1_foregroundBlur_437_283"
-            />
-          </filter>
-        </defs>
-      </svg>
     </div>
+    <p
+      class="absolute 2xl:bottom-[14%] xl:bottom-[14%] lg:bottom-[14%] md:bottom-[14%] sm:bottom-[2%] bottom-[6%] 2xl:left-[10%] xl:left-[10%] lg:left-[10%] md:left-[10%] sm:left-[6%] left-[6%] 2xl:text-8xl xl:text-8xl lg:text-8xl md:text-8xl sm:text-4xl text-5xl"
+    >
+      🥳
+    </p>
+    <p
+      class="absolute 2xl:bottom-[8%] xl:bottom-[8%] lg:bottom-[8%] md:bottom-[8%] sm:bottom-[2%] bottom-[4%] 2xl:right-[12%] xl:right-[12%] lg:right-[12%] md:right-[12%] sm:right-[3%] right-[3%] 2xl:text-8xl xl:text-8xl lg:text-8xl md:text-8xl sm:text-4xl text-5xl"
+    >
+      ⭐
+    </p>
   </body>
 </html>
